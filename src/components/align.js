@@ -1,0 +1,56 @@
+import React from "react";
+
+export default function Align() {
+  return (
+    <>
+      <h1>Align-items</h1>
+      <form>
+        <label>
+          <input
+            type="radio"
+            name="align"
+            value="flex-start"
+            className="align"
+          ></input>
+          flex-start
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="align"
+            value="flex-end"
+            className="align"
+          ></input>
+          flex-end
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="align"
+            value="center"
+            className="align"
+          ></input>
+          center
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="align"
+            value="baseline"
+            className="align"
+          ></input>
+          baseline
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="align"
+            value="stretch"
+            className="align"
+          ></input>
+          stretch
+        </label>
+      </form>
+    </>
+  );
+}

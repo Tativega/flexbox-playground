@@ -1,0 +1,56 @@
+import React from "react";
+
+export default function Justify() {
+  return (
+    <>
+      <h1>Justify-content</h1>
+      <form>
+        <label>
+          <input
+            type="radio"
+            name="justify"
+            value="center"
+            className="justify"
+          ></input>
+          center
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="justify"
+            value="flex-start"
+            className="justify"
+          ></input>
+          flex-start
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="justify"
+            value="flex-end"
+            className="justify"
+          ></input>
+          flex-end
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="justify"
+            value="space-around"
+            className="justify"
+          ></input>
+          space-around
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="justify"
+            value="space-between"
+            className="justify"
+          ></input>
+          space-between
+        </label>
+      </form>
+    </>
+  );
+}
